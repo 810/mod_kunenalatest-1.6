@@ -205,10 +205,6 @@
 					default="!"
 					description="MOD_KUNENALATEST_PARAM_UNREADINDICATOR_DESC"
 					label="MOD_KUNENALATEST_PARAM_UNREADINDICATOR" />
-				<field name="dateformat" type="text"
-					default="at %H:%M on %b %d, %Y (%Z)"
-					description="MOD_KUNENALATEST_PARAM_DATEFORMAT_DESC"
-					label="MOD_KUNENALATEST_PARAM_DATEFORMAT" />
 
 				<field name="sh_topiciconoravatar" type="radio"
 					default="0"
@@ -218,10 +214,12 @@
 					<option value="0">MOD_KUNENALATEST_PARAM_VALUE_TOPICICON</option>
 					<option value="2">MOD_KUNENALATEST_PARAM_VALUE_NO_AVATAR_NO_TOPICICONS</option>
 				</field>
+
 				<field name="avatarwidth" type="text"
 					default="36px"
 					description="MOD_KUNENALATEST_PARAM_AVATAR_WIDTH_DESC"
 					label="MOD_KUNENALATEST_PARAM_AVATAR_WIDTH" />
+
 				<field name="avatarheight" type="text"
 					default="36px"
 					description="MOD_KUNENALATEST_PARAM_AVATAR_HEIGHT_DESC"
